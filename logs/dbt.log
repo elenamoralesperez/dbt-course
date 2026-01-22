@@ -1,0 +1,77 @@
+[0m12:46:08.525941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B896FB4C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B897F1BED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B897F1BB10>]}
+
+
+============================== 12:46:08.540918 | ca1ddc48-7546-4742-9381-1a632d26dd1c ==============================
+[0m12:46:08.540918 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m12:46:08.542849 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt deps', 'no_print': 'None', 'log_format': 'default', 'printer_width': '80', 'target_path': 'None', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\laele\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m12:46:08.544091 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\laele\OneDrive\Documentos\GitHub\dbt-course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:46:08.546304 [debug] [MainThread]: Command `dbt deps` failed at 12:46:08.546108 after 0.25 seconds
+[0m12:46:08.546823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B897F16780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B899029FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B897D8F020>]}
+[0m12:46:08.547451 [debug] [MainThread]: Flushing usage events
+[0m12:46:09.967066 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:51:11.997827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918BF91010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918CF0FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918CF0FB10>]}
+
+
+============================== 12:51:12.008459 | ea47b3bd-dda1-414a-89a5-5ee0423cfe35 ==============================
+[0m12:51:12.008459 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:51:12.009387 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': 'C:\\Users\\laele\\.dbt', 'target_path': 'None', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'cache_selected_only': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m12:51:12.115413 [debug] [MainThread]: Starter project path: C:\Users\laele\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\dbt\include\starter_project
+[0m12:51:12.143937 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:51:12.146314 [debug] [MainThread]: Command `dbt init` succeeded at 12:51:12.146077 after 0.36 seconds
+[0m12:51:12.147092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918CF0AB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918CFB2B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001918CD7EE00>]}
+[0m12:51:12.147829 [debug] [MainThread]: Flushing usage events
+[0m12:51:13.477531 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:54:13.886998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD01CC1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD03D0FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD03D0FB10>]}
+
+
+============================== 12:54:13.895977 | f92e6e65-0137-46f4-bd39-50460f4c38e7 ==============================
+[0m12:54:13.895977 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:54:13.897140 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\laele\\.dbt', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None'}
+[0m12:54:13.931129 [info ] [MainThread]: dbt version: 1.11.2
+[0m12:54:13.932307 [info ] [MainThread]: python version: 3.13.9
+[0m12:54:13.932995 [info ] [MainThread]: python path: C:\Users\laele\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+[0m12:54:13.933651 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m12:54:14.590834 [info ] [MainThread]: Using profiles dir at C:\Users\laele\.dbt
+[0m12:54:14.591961 [info ] [MainThread]: Using profiles.yml file at C:\Users\laele\.dbt\profiles.yml
+[0m12:54:14.592726 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\laele\OneDrive\Documentos\GitHub\dbt-course\dbt_project.yml
+[0m12:54:14.593702 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:54:14.595053 [debug] [MainThread]: Command `dbt debug` failed at 12:54:14.594902 after 0.91 seconds
+[0m12:54:14.595549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD03E0F6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD03ED7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD03D9AE00>]}
+[0m12:54:14.596116 [debug] [MainThread]: Flushing usage events
+[0m12:54:15.953292 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:42:08.595043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49A489010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49C40FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49C40FB10>]}
+
+
+============================== 13:42:08.608786 | e0a412fe-d611-463e-8483-c2d6769c4275 ==============================
+[0m13:42:08.608786 [info ] [MainThread]: Running with dbt=1.11.2
+[0m13:42:08.610478 [debug] [MainThread]: running dbt with arguments {'invocation_command': "dbt run-operation run_query --args {query: 'SHOW SCHEMAS IN DATABASE AIRBNB'}", 'profiles_dir': 'C:\\Users\\laele\\.dbt', 'cache_selected_only': 'False', 'write_json': 'True', 'log_format': 'default', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m13:42:08.611638 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\laele\OneDrive\Documentos\GitHub\dbt-course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:42:08.613212 [debug] [MainThread]: Command `dbt run-operation` failed at 13:42:08.613028 after 0.43 seconds
+[0m13:42:08.613692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49C4029E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49C2FE8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C49C27F130>]}
+[0m13:42:08.614193 [debug] [MainThread]: Flushing usage events
+[0m13:42:10.306190 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,16 @@
+airbnb:
+  outputs:
+    dev:
+      type: snowflake
+      account: urqflrq-rs54506 #Esto viene de la url que te dan cuando te registras en snowflake 
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----MIIFNTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQQE/RlQqMGi8pi+qbYfh/fgICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEAzk7PBL4Cge9K77u8s2NUsEggTQxoF7GklIbrFndrx0yPKKpeolk9VLBsxacsuRslBWCAONpquoe5HhIvpPPWCT/r7HRGe1y3YrVVFmh83cdtcqRhnObuHThM2+sInQYnBiDa9Rw+asBPwNMnxGnTvDWCkvUYShA6KL+6+01qIzqsK8dhMHS6l3PqmE7+HJCtC3aiGaRMD+T5CSQNHzyfHnHTKw/FjmbCpd8OIid5kNGCizhuvG4cb1ZmqcJwJrsuRQgZag3r/++PxCOFg3EpXmtOcCytwVkpR/7zjiU5U+5l4q2A/wzBjnVeSyjbLEX32ij/SQeXVYLr9nfAp8ftgZx0hFvgoASs0vK9cNEfpPkpaRIX+oEIIWz/IWAqFCHJ2IKrT3CPhwDz3Dgzi9qs0W/qq94ekspNANBV3n1AnFMBLGYZGaGW9agQtXY47lhlg93HaO0d4MvtWcfvtk0gV6Gzb1jqhoGxOaQFhR0lQGJH0OQ20GUiDCVSMLx08vMQcmrdZpXVJPEpuMhNzAWqJg7FJvtMObDLR6fjJtF8+CDHSjGJXc3/s4DS7n5x7HDmBf+kNZopymSLu0ClVC32mENhjFAxEMBFNf4UOqykpxVszViQ8JjKmXhUjM2fjHoL7wxv5FK6XwypY2fkY3R2Am2EvCw01Zm0qzH6kklR/ZQWP/YMmf5A4iXi/ndjC93YIS1DrzUR2ZeaZPW1jh/pNm9sAxR1olDekVtrKfs+5zHcs01s1kG/dXUz3HDAjw7XrL94mGcFT4KY3mM5rLrQMhayzON9VPiqNXy9nwx3IBZrUOCCEgFCzPoBJUXn+5e8rCNW6UadbTGIkT1oDg0qOF7bn8JtDtHm4oinxq4bTk+VLN6SRqAlXIDMES/wUaT8dO6TmYrX5QVXj4XAJFIqYGZUbTX56Z2Ugh5wLRPtBMksh3Cencphb332JwRTfBk6/6TiRb2neVi/y/2xMwlTcRId6sFbbxmhyw1Tkbd3h3eq3GfDvI0k8JzkYTha1bIOB7E6d+J+gy7JhdOQ7By16oi9/s7X0J3xY3w41LlZKXvPS3d37TdwoMdqd4hIyPrhVAB3Dfgm1UNqeS28y0fo2r8dqanrQ59YMUNVe6k//5ApFF8JMFBnzUl9rUa+Buehoa0h1TACf0YiBL9WKwYB0yJSqIwnl5X/XQr94D2CpHS7SueF/XPitQ4WE7/W+HGCV2B7t/WsxKE3jD+svOTrotqoCkRCLxRk8OLYVABknkMHJquzjbp3gR8GpKik12+sYOH4CtcY8fCEplHnvJjzd1APF2r5Ix6bouTjgBcXZJEg9GqkUPZC5hku/dHnF7in//h5bKm8mIm6RSVjhHd4wmhNgj9RhWBHyQJSCj7am5u+3qFz6Iw7k35YPwuApP8lxwv6Fg67YAfveEKVJKQTmAkhzkzfL2lvSgK9SV16vzwDMr0eHhmHxigU9NN9sluF+OJcx954C1oJfSU1IctHJlHcU9tntdcF0GD/+Nmo+i5+5xIhde9kD1tB2gdhzkJPOLjj9uuY65oXUw6Ek9Up/Q7PqvoL98NyP3eWhL23kXBEme2rJLp7qAHxmVB5tLO+shNQE668fTnY9VCqzkh6wiW17LzoP5eXeEco91ksr/lKyOKZHYe1wXEB3cv7d3YjQekew=-----END ENCRYPTED PRIVATE KEY-----"
+      private_key_passphrase: q
+
+      database: AIRBNB
+      schema: DEV
+      threads: 1
+      warehouse: COMPUTE_WH
+  target: dev
